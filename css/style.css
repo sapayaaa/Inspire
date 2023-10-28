@@ -11,6 +11,8 @@ body {
 
 header {
   text-align: center;
+  font-size: large;
+  font-family: y;
 }
 
 .quote-image img {
@@ -18,24 +20,20 @@ header {
   margin: 0 auto;
   width: 100%;
 }
-
-.quote-actions {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.like {
-  margin-right: 10px;
+.likes-btn {
+  margin-right: 20px;
+  color: red;
+  border: none;
   cursor: pointer;
 }
 
-#next-button {
-  padding: 10px;
-  background-color: #000;
+.next-button {
+  padding: 3px;
+  background-color: #b054c4;
   color: #fff;
   cursor: pointer;
 }
-* Category Buttons */
+/* Category Buttons */
 .category-buttons {
   display: flex;
   justify-content: space-around;
@@ -46,7 +44,8 @@ header {
   font-style: italic;
   color: #333;
   border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  
 }
